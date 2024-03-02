@@ -10,8 +10,13 @@
   </mat-drawer>
 
   <div class="example-sidenav-content">
-    <button type="button" mat-button (click)="drawer.toggle()">
-      Toggle sidenav
-    </button>
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <button type="button" mat-button (click)="drawer.toggle()">
+          Toggle sidenav
+        </button>
+        <span>Simple CRM</span>
+      </mat-toolbar-row>
+    </mat-toolbar>
   </div>
 </mat-drawer-container>
