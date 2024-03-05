@@ -19,6 +19,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     RouterModule,
     MatButtonModule,
     MatDialogModule,
+    MatIconModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

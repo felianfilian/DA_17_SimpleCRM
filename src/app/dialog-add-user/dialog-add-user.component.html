@@ -1,14 +1,8 @@
-<h2 mat-dialog-title>Hi {{ data.name }}</h2>
+<h2 mat-dialog-title>Add User</h2>
 <mat-dialog-content>
   <p>Add User</p>
-  <mat-form-field>
-    <mat-label>Favorite Animal</mat-label>
-    <input matInput [(ngModel)]="data.animal" />
-  </mat-form-field>
 </mat-dialog-content>
 <mat-dialog-actions>
-  <button mat-button (click)="onNoClick()">Cancel</button>
-  <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>
-    Save
-  </button>
+  <button mat-button>Cancel</button>
+  <button mat-button cdkFocusInitial>Save</button>
 </mat-dialog-actions>
