@@ -6,6 +6,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatInputModule } from '@angular/material/input';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatButtonModule,
     MatDialogModule,
     MatIconModule,
+    MatInputModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
