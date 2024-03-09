@@ -39,6 +39,6 @@ export class DialogAddUserComponent {
   user: User = new User();
 
   saveUser() {
-    console.log('user: ', this.user.firstname);
+    console.log('user: ', this.user);
   }
 }
