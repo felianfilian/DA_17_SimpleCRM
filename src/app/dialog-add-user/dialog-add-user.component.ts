@@ -13,8 +13,9 @@ import {
   MatNativeDateModule,
   provideNativeDateAdapter,
 } from '@angular/material/core';
-import { FormsModule } from '@angular/forms';
+
 import { User } from '../../models/user.class';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-dialog-add-user',
@@ -36,4 +37,8 @@ import { User } from '../../models/user.class';
 })
 export class DialogAddUserComponent {
   user: User = new User();
+
+  saveUser() {
+    console.log('user: ', this.user.firstname);
+  }
 }
