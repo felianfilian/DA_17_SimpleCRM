@@ -37,8 +37,11 @@ import { FormsModule } from '@angular/forms';
 })
 export class DialogAddUserComponent {
   user: User = new User();
+  birthDate: Date | undefined;
 
   saveUser() {
+    this.user.birthdate = this.birthDate ? this.birthDate.getTime() : 0;
+
     console.log('user: ', this.user);
   }
 }
