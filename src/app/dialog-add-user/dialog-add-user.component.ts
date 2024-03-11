@@ -16,6 +16,7 @@ import {
 
 import { User } from '../../models/user.class';
 import { FormsModule } from '@angular/forms';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 @Component({
   selector: 'app-dialog-add-user',
@@ -30,6 +31,7 @@ import { FormsModule } from '@angular/forms';
     MatDatepickerModule,
     MatNativeDateModule,
     FormsModule,
+    MatProgressBarModule,
   ],
   providers: [provideNativeDateAdapter()],
   templateUrl: './dialog-add-user.component.html',
