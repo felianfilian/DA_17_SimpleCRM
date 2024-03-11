@@ -40,6 +40,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 export class DialogAddUserComponent {
   user: User = new User();
   birthDate: Date | undefined;
+  loading = false;
 
   saveUser() {
     this.user.birthdate = this.birthDate ? this.birthDate.getTime() : 0;
