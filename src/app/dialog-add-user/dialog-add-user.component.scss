@@ -11,6 +11,8 @@
 }
 
 .dialog-actions {
+  display: flex;
+  justify-content: flex-end;
   padding: 0 24px 20px 24px;
 }
 
