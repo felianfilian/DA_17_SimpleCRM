@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 import {
@@ -22,6 +23,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
   selector: 'app-dialog-add-user',
   standalone: true,
   imports: [
+    CommonModule,
     MatDialogContent,
     MatDialogActions,
     MatFormFieldModule,
