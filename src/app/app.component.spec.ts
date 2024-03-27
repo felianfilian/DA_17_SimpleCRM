@@ -14,16 +14,18 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'DA_17_SimpleCRM' title`, () => {
+  it(`should have the 'da_17_simple_crm' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('DA_17_SimpleCRM');
+    expect(app.title).toEqual('da_17_simple_crm');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, DA_17_SimpleCRM');
+    expect(compiled.querySelector('h1')?.textContent).toContain(
+      'Hello, da_17_simple_crm'
+    );
   });
 });
