@@ -30,5 +30,5 @@ import { Firestore } from '@angular/fire/firestore';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'da_17_simple_crm';
+  title = 'da-17-simple-crm';
 }
